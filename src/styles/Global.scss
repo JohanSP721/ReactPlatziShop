@@ -1,7 +1,18 @@
-$base-color: #ff0000;
-$color: rgba(black, 0.88);
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap");
 
-body {
-  background-color: $base-color;
-  color: $color;
+*
+{
+	padding: 0;
+	margin: 0;
+	border: none;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+}
+
+html
+{
+	font-size: 62.5%;
+	font-family: 'Open Sans', sans-serif;
+	color: #3c484e;
 }
